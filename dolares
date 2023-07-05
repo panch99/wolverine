@@ -1,0 +1,11 @@
+reales = int(input("Cuantos reales tenes?"))
+pesos = int(input("Cuantos pesos tenes?"))
+soles = int(input("Cuantos soles tenes?"))
+
+tasa_cambio_real_dolar = 0,85
+tasa_cambio_peso_dolar = 0,15
+tasa_cambio_sol_dolar = 0,62
+
+total_en_dolares = (reales / tasa_cambio_real_dolar) + (pesos / tasa_cambio_peso_dolar) + (soles / tasa_cambio_sol_dolar)
+
+print("Tenes", total_en_dolares, "dolares")
